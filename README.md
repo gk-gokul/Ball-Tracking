@@ -17,10 +17,9 @@ This repository contains a Python script for tracking colored balls in a video a
 - OpenCV
 - NumPy
 
-**Installation**
+
 
 1. Clone the repository:
    git clone https://github.com/gk-gokul/Ball-Tracking.git
 
-2. - pip install numpy opencv-python python
 
