@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import datetime
+from moviepy.editor import VideoFileClip
 
 # Function to detect balls of a specific color in a frame
 
@@ -52,7 +53,7 @@ def get_quadrant(frame_shape, ball_coordinates):
 
 
 # Open the video file
-video_path = 'path of input video'
+video_path = 'D:\SequreAlse\AI Assignment video.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Get video properties
@@ -118,3 +119,19 @@ out.release()
 
 print(f"Processed video saved at: {output_video_path}")
 print(f"Event records saved at: {text_file_path}")
+
+"""
+#Only if you need to convert your output file from .avi to .mp4
+def convert_avi_to_mp4(input_file, output_file):
+    # Load the AVI file
+    clip = VideoFileClip(input_file)
+
+    # Write the video to an MP4 file
+    clip.write_videofile(output_file, codec='libx264', audio_codec='aac')
+
+
+if __name__ == "__main__":
+    input_file = "processed_video.avi"  # Replace with your AVI file name
+    output_file = "processed_video.mp4"  # Replace with the desired MP4 file name
+
+    convert_avi_to_mp4(input_file, output_file)
