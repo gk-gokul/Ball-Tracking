@@ -10,7 +10,7 @@ This repository contains a Python script for tracking colored balls in a video a
 - Generates a text file with event records.
 
 ## Getting Started
-
+ 
 ### Prerequisites
 
 - Python 3
