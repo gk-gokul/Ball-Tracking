@@ -52,7 +52,7 @@ def get_quadrant(frame_shape, ball_coordinates):
 
 
 # Open the video file
-video_path = 'D:\SequreAlse\AI Assignment video.mp4'
+video_path = 'path of input video'
 cap = cv2.VideoCapture(video_path)
 
 # Get video properties
