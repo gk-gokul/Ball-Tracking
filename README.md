@@ -18,7 +18,6 @@ This repository contains a Python script for tracking colored balls in a video a
 - NumPy
 
 
-
 1. Clone the repository:
    git clone https://github.com/gk-gokul/Ball-Tracking.git
 
