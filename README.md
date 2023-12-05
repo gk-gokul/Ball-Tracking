@@ -20,7 +20,3 @@ This repository contains a Python script for tracking colored balls in a video a
 
 1. Clone the repository:
    git clone https://github.com/gk-gokul/Ball-Tracking.git
-
-Acknowledgments
-This project was inspired by the need for ball tracking in a specific environment.
-
